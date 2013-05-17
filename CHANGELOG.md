@@ -1,3 +1,15 @@
+0.2.2
+ - Support for touch command #86
+ - Fix for chunked responses from the server #84
+
+0.2.1
+ - Supports for a queued callback limit so it would crash the process when we queue
+   to much callbacks. #81
+
+0.2.0
+ - [breaking] We are now returning Error instances instead of strings for errors
+ - Dependency bump for a critical bug in our connection pool.
+
 0.1.5
  - Don't execute callbacks multiple times if the connection fails
  - Parser fix for handling server responses that contain Memcached Procotol
